@@ -1,1 +1,1 @@
-web: gunicorn hello:app
+web: forego start -f Procfile.free -p $PORT
